@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="">
+        <h1>Event Registration</h1>
+        <label for="name">Name <br>
+            <input type="text" name="username" id="name">
+        </label> <br> <br>
+        <label for="email">Email <br> <br>
+            <input type="email" name="email" id="email">
+        </label> <br> <br>
+        <label for="phone">Phone <br>
+            <input type="number" name="phone" id="phone">
+        </label> <br> <br>
+        <label for="org">Organization <br>
+            <select name="dropdown" id="org">
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </select>
+        </label> <br>
+       <fieldset>
+        <legend>Interest</legend>
+            <label >HTML <br>
+                <input type="checkbox" name="" id="">
+            </label> <br>
+            <label >CSS <br>
+                <input type="checkbox" name="" id="">
+            </label> <br>
+            <label > javascript <br>
+                <input type="checkbox" name="" id="">
+            </label>
+        </label> <br>
+       </fieldset>
+        <h4>comments</h4>
+        <textarea name="comments" id="comments" cols="20" rows="5"></textarea>
+        <input type="submit" value="register">
+    </form>
+    <!-- complex form example -->
+    <form action="">
+        <h1>Complex Form</h1>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label >Name <input type="text" name="name" id="username"></label>
+            <label >Email <input type="email" name="email" id="user email"></label>
+            <label >phone No.<input type="tel" name="telephone" id="telephone"></label>
+            <label >Date of Birth <input type="date" name="DOB" id="DOB"></label>
+            <label >Gender</label>
+            <label ><input type="radio" name="gender" id="gender"> male</label>
+            <label ><input type="radio" name="gender" id="gender"> female </label>
+            <label >country 
+                <input type="checkbox" name="country" id="country">
+                <option value="country1">india</option>
+                <option value="country2">america</option>
+                <option value="country3">china</option>
+            </label>    
+        </fieldset>
+        <fieldset>
+            <legend>
+                Address
+                <label >street <input type="text" name="street" id=""></label>
+                <label >city <input type="text" name="city" id=""></label>
+                <label >state <input type="text" name="state" id=""></label>
+                <label > zip code <input type="text" name="zip code" id=""></label>
+            </legend>
+        </fieldset>
+        <fieldset>
+            <legend>Other Information</legend>
+            <label >Comments <textarea name="comments" id="add. info" cols="30" rows="10"></textarea>I agree to teh terms of services</label>
+        </fieldset>
+        <input type="submit" value="submit">
+    </form>
+    
+</body>
+</html>
